@@ -1,0 +1,30 @@
+{
+  "name": "ngnl-demos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --colors --display-error-details --display-cached --port 8080 --content-base src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ngrx/store": "^1.2.1",
+    "angular2": "^2.0.0-beta.6",
+    "angularfire2": "^2.0.0-alpha.8",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "firebase": "^2.4.0",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.0",
+    "zone.js": "^0.5.14"
+  },
+  "devDependencies": {
+    "ts-loader": "^0.8.1",
+    "typescript": "^1.7.5",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-livereload-plugin": "^0.5.3"
+  }
+}
