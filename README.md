@@ -7,3 +7,4 @@ Demo code from my keynote at NGNL 2016. Slides [here](https://docs.google.com/pr
 - `npm install`
 - `npm install -g typings`
 - `typings install`
+- `npm start`
