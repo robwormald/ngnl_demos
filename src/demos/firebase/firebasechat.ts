@@ -1,5 +1,5 @@
 import {Component} from 'angular2/core'
-import {AngularFire, defaultFirebase, FIREBASE_PROVIDERS, FirebaseObservable} from 'angularfire2'
+import {AngularFire, defaultFirebase, FIREBASE_PROVIDERS, FirebaseListObservable} from 'angularfire2'
 
 
 @Component({
@@ -18,7 +18,7 @@ import {AngularFire, defaultFirebase, FIREBASE_PROVIDERS, FirebaseObservable} fr
   ]
 })
 export class FirebaseChat {
-  messages: FirebaseObservable<any[]>
+  messages: FirebaseListObservable<any[]>
   constructor(angularFire: AngularFire){
     this.messages = angularFire.list('/messages');
   }
